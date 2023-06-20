@@ -13,53 +13,58 @@
 
 <body>
 
-    <!-- First, create a navbar using bootstrap -->
-    <!-- https://getbootstrap.com/docs/5.3/components/navbar/ -->
+    <!-- W3SChools Navbar -->   
     <div class="navbar" id="myNavbar">
-      <a href="#home" class="active">Home</a>
-      <a href="#news">Animated Dogs Gallery</a>
-      <a href="#contact">Live Dogs Gallery</a>
-      <a href="#about">Contact Us</a>
-      <a href="#test">Testing</a>
-      <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+      <a href="index.html" class="active">Home</a>
+      <a href="animated.html">Animated Dogs Gallery</a>
+      <a href="liveaction.html">Live Dogs Gallery</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact Us</a>
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
     </div>
    
     
 <br><br>
-    <!-- Then, create a table for the homework tracker  -->
-    <!-- https://getbootstrap.com/docs/5.3/content/tables/#overview -->
-    <!-- Try playing around with different table styling, colours, striped -->
+  
 
     <h2 class="center"> 
       Click to see more about some famous dogs of film and television
     </h2>
 <br>
+<!--Add link to images for clicking through to gallery-->
     <div class="container text-center">
       <div class="row">
         <div class="col">
-          <img width="300" src="images/dog-ga40f87671_640.jpg" class="img-thumbnail" alt="Animated Dog">
+          <a href="animated.html" ><img width="300" src="images/dog-ga40f87671_640.jpg" class="img-thumbnail" alt="Animated Dog"></a> 
         </div>
         <div class="col">
-          <img width="300" src="images/dog-gf65db956b_640.jpg" class="img-thumbnail" alt="Real Dog">
+          <a href="liveaction.html" ><img width="300" src="images/dog-gf65db956b_640.jpg" class="img-thumbnail" alt="Real Dog"></a>
         </div>
       </div>
     </div>
 
     
 <br>
-
-      <ul class="nav justify-content-left">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a> 
-        </li> 
-        <li class="nav-item">
-          <a class="nav-link" href="#">About Us</a> 
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact Us</a> 
-        </li>
-    </ul>
-      
+<!--bottom nav bar-->
+<div class="bottomNav">
+  <ul class="nav justify-content-left">
+    <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="index.html">Home</a> 
+    </li> 
+    <li class="nav-item">
+      <a class="nav-link" href="animated.html">Animated Dogs Gallery</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="liveaction.html">Live Dogs Gallery</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="about.html">About Us</a>
+    </li>
+    <li>
+      <a class="nav-link" href="contact.html">Contact Us</a>
+    </li>
+</ul>
+</div> 
             
           <div>
             <p class="center">&copy; 2023 Lynsey Johnson. All rights reserved.</p>
@@ -68,8 +73,10 @@
         </footer>
       </div>
     <footer>      
-          
+        
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+        
     </footer>
 </body>
 </html>
